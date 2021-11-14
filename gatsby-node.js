@@ -12,7 +12,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       published: Boolean
       canonical_link: String
       categories: [String]
-      redirect_from: [String]
+      redirect_to: [String]
     }
     type MediumMdxFields {
       slug: String
